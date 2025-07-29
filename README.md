@@ -6,7 +6,7 @@ This project demonstrates an advanced sorting algorithm called **Merge-Insertion
 
 ---
 
-<img src="https://github.com/user-attachments/assets/285a23de-fe88-4815-8252-43a941b8e4cb" width="1363" height="794" alt="Ford-janson" />
+<img src="https://github.com/user-attachments/assets/285a23de-fe88-4815-8252-43a941b8e4cb" width="1363" height="500" alt="Ford-janson" />
 
 ---
 
