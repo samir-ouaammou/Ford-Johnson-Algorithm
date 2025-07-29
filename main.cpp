@@ -6,6 +6,7 @@
 #include <climits>
 #include <iomanip>
 
+
 /**
  * @brief Generate the insertion order for the "small" elements
  *        based on the Jacobsthal sequence logic.
@@ -46,7 +47,7 @@ std::vector<int>    insertOrder(int n)
 void    MergeInsertionSort(std::vector<int> &input)
 {
     if (input.size() <= 1)
-        return;
+        return ;
 
     std::vector<int>    bigs;
     std::vector<int>    smalls;
