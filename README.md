@@ -18,10 +18,10 @@ This project demonstrates an advanced sorting algorithm called **Merge-Insertion
 * How to handle edge cases like duplicate input and invalid values.
 
 ---
-<img width="1363" height="794" alt="Screenshot from 2025-07-29 09-57-21" src="https://github.com/user-attachments/assets/cb7aa52e-db41-46e5-8b32-98c482cccc3c" />
-<img width="1363" height="794" alt="Screenshot from 2025-07-29 09-57-38" src="https://github.com/user-attachments/assets/431a7b1f-706a-44ff-82a5-091ef50bc401" />
-<img width="1363" height="794" alt="Screenshot from 2025-07-29 09-57-50" src="https://github.com/user-attachments/assets/79ac8316-6b55-4110-8928-2b8187cea208" />
-<img width="1539" height="343" alt="Screenshot from 2025-07-29 09-58-26" src="https://github.com/user-attachments/assets/19085ea2-92cc-4407-ab39-c5a8097bd570" />
+<img width="1363" height="500" alt="Screenshot from 2025-07-29 09-57-21" src="https://github.com/user-attachments/assets/cb7aa52e-db41-46e5-8b32-98c482cccc3c" />
+<img width="1363" height="500" alt="Screenshot from 2025-07-29 09-57-38" src="https://github.com/user-attachments/assets/431a7b1f-706a-44ff-82a5-091ef50bc401" />
+<img width="1363" height="500" alt="Screenshot from 2025-07-29 09-57-50" src="https://github.com/user-attachments/assets/79ac8316-6b55-4110-8928-2b8187cea208" />
+<img width="1539" height="500" alt="Screenshot from 2025-07-29 09-58-26" src="https://github.com/user-attachments/assets/19085ea2-92cc-4407-ab39-c5a8097bd570" />
 
 ---
 
