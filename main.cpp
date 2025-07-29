@@ -49,7 +49,7 @@ void sortVector(std::vector<int> &input)
         return;
 
     std::vector<int> bigs;
-    std::vector<int> smls;
+    std::vector<int> smalls;
 
     // Step 1: Pairing elements into bigs and smalls
     for (size_t i = 0; i < input.size() - 1; i += 2)
@@ -57,12 +57,12 @@ void sortVector(std::vector<int> &input)
         if (input[i] > input[i + 1])
         {
             bigs.push_back(input[i]);
-            smls.push_back(input[i + 1]);
+            smalls.push_back(input[i + 1]);
         }
         else
         {
             bigs.push_back(input[i + 1]);
-            smls.push_back(input[i]);
+            smalls.push_back(input[i]);
         }
     }
 
@@ -75,14 +75,14 @@ void sortVector(std::vector<int> &input)
     // Step 3: Insert the smalls into the sorted bigs using a specific insertion order
     std::vector<int> sorted = bigs;
 
-    if (!smls.empty())
+    if (!smalls.empty())
     {
-        std::vector<int> indeces = insertOrder(smls.size());
-        for (size_t i = 0; i < smls.size(); ++i)
+        std::vector<int> indeces = insertOrder(smalls.size());
+        for (size_t i = 0; i < smalls.size(); ++i)
         {
             int idx = indeces[i];
-            std::vector<int>::iterator pos = std::lower_bound(sorted.begin(), sorted.end(), smls[idx]);
-            sorted.insert(pos, smls[idx]);
+            std::vector<int>::iterator pos = std::lower_bound(sorted.begin(), sorted.end(), smalls[idx]);
+            sorted.insert(pos, smalls[idx]);
         }
     }
 
@@ -197,7 +197,7 @@ int main(int ac, char **av)
         timeStart = getTimeMicroseconds();
         sortVector(input);
         timeEnd = getTimeMicroseconds();
-        printContainer(input, "After");
+        printContainer(input, "After ");
         printTiming(timeStart, timeEnd, input.size());
     }
     catch (const std::exception &e)

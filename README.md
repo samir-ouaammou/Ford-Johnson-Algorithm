@@ -15,6 +15,10 @@ This project demonstrates an advanced sorting algorithm called **Merge-Insertion
 
 ---
 
+![alt text](<Screenshot from 2025-07-29 09-57-21.png>)
+
+---
+
 ## 🛠️ Installation
 
 1. Clone the repository to your local machine:
