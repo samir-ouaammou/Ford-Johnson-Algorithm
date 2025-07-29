@@ -6,6 +6,10 @@ This project demonstrates an advanced sorting algorithm called **Merge-Insertion
 
 ---
 
+![Ford-janson](https://github.com/user-attachments/assets/285a23de-fe88-4815-8252-43a941b8e4cb)
+
+---
+
 ## 🚀 What You Will Learn
 
 * How **Merge Sort** and **Insertion Sort** are combined for efficiency.
