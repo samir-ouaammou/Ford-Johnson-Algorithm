@@ -189,7 +189,6 @@ This project brings theory and practice together with an elegant algorithm that 
 
 Want to dive deeper? Here are some great resources to understand Merge-insertion sort better:
 - [Lode's Computer Graphics Tutorial](https://en.wikipedia.org/wiki/Merge-insertion_sort)
-- [Lode's Computer Graphics Tutorial](https://en.wikipedia.org/wiki/Jacobsthal_number)
 
 ---
 
